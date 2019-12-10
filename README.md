@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## SSO管理系统 (个人开源项目)
+
+架构:MVVM
+
+web:react-cli serve:nodeJS(Koa2) database:mongodb(mongoose)
+
 ## Available Scripts
 
 In the project directory, you can run:
