@@ -1,0 +1,141 @@
+.nav-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+    box-shadow: 0 0 1px -5px rgba(0, 0, 0, .2), -1px -1px 8px -1px rgba(0, 0, 0, .14), 0 1px 6px 1px rgba(0, 0, 0, .12)
+}
+
+.nav-header a {
+    color: inherit;
+}
+
+.nav-header .nav-images {
+    width: 110px;
+    height: 90px;
+    margin: auto 35px;
+}
+
+.nav-header .nav-images > img {
+    width: 100%;
+}
+
+/**
+ * css3
+ * animation keyframes(变量) 时间  从一个地方移动到另一个地方   速度     播放次数
+ * animation ic_supergif    2.5s        both             linear   infinite
+ */
+.nav-header .nav-background {
+    animation: ic-supergif 2s both linear infinite;
+    position: absolute;
+    left: 180px;
+    top: 0;
+    margin-left: -27px;
+    width: 55px;
+    height: 90px;
+    background: url('../images/tab-superfly.png') no-repeat;
+}
+
+@keyframes ic-supergif {
+    0% {
+        background-position: 0 220px;
+    }
+    100% {
+        background-position: 0 -315px;
+    }
+
+}
+
+.nav-header .nav-images img {
+    color: #fff;
+    font-size: 14px;
+    font-variant: tabular-nums;
+}
+
+.nav-header .nav-setting {
+    text-align: center;
+    color: rgba(46, 98, 93, 1.000);
+    font-size: 20px;
+}
+
+.header-tooltip .ant-tooltip-inner{
+    font-size: 12px;
+    min-height: 24px;
+}
+
+/*.nav-header .nav-setting .relative-setting {*/
+/*position: relative;*/
+/*}*/
+
+/*.card-setting {*/
+/*position: absolute;*/
+/*right: 6px;*/
+/*top: 72px;*/
+/*font-size: 14px;*/
+/*color: rgba(46, 98, 93, 1.000);*/
+/*height: auto;*/
+/*width: 64px;*/
+/*background-color: rgba(255, 255, 255, 1);*/
+/*border-radius: 5px;*/
+/*padding: 8px 5px 5px 5px;*/
+/*box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);*/
+/*transition: top 0.1s ease;*/
+/*-webkit-transition: top 0.5s;*/
+/*}*/
+
+/*.card-setting:after {*/
+/*content: "";*/
+/*position: absolute;*/
+/*display: block;*/
+/*width: 0;*/
+/*height: 0;*/
+/*border-color: transparent;*/
+/*border-style: solid;*/
+/*border-width: 6px;*/
+/*z-index: 1;*/
+/*top: -5px;*/
+/*left: 27px;*/
+/*border-top-width: 0;*/
+/*border-bottom-color: rgba(255, 255, 255, 1);*/
+/*box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);*/
+/*}*/
+
+/*.relative-setting .setting-icon {*/
+/*position: absolute;*/
+/*right: 18px;*/
+/*}*/
+
+/*.card-setting {*/
+/*opacity: 0;*/
+/*z-index: -1;*/
+/*}*/
+
+/*.active {*/
+/*opacity: 0.9;*/
+/*z-index: 1;*/
+/*top: 76px;*/
+/*}*/
+
+/*.close {*/
+/*transition: opacity 0.1s ease;*/
+/*}*/
+
+/*.nav-header .nav-setting .relative-setting .card-setting div {*/
+/*line-height: 2;*/
+/*font-size: 12px;*/
+/*padding: 5px 0;*/
+/*}*/
+
+/*.nav-header .nav-setting .relative-setting .card-setting div i {*/
+/*font-size: 16px;*/
+/*padding-right: 5px;*/
+/*}*/
+

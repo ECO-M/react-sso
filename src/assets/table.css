@@ -1,0 +1,150 @@
+/*.table_context {*/
+/*overflow: auto;*/
+/*height: calc(100vh - 70px);*/
+/*padding: 15px;*/
+/*-webkit-box-sizing: border-box;*/
+/*box-sizing: border-box;*/
+/*}*/
+
+/*.table_form {*/
+/*border: 1px solid #e8e8e8;*/
+/*}*/
+
+/*.table_context .table_form {*/
+/*background-color: #fff;*/
+/*}*/
+
+/*.table-vh {*/
+/*height: calc(100vh - 70px);*/
+/*background-color: #545c64;*/
+/*border-right: 1px solid #DFDFDF;*/
+/*overflow: auto;*/
+/*}*/
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 55px;
+    line-height: 55px;
+}
+
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 55px;
+    line-height: 55px;
+}
+
+.ant-menu-item .anticon + a {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), width 0.3s
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item .anticon + a {
+    display: inline-block;
+    max-width: 0;
+    opacity: 0;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.ant-menu-inline {
+    border: none;
+}
+
+.ant-layout-sider-trigger {
+    background: #4A5259;
+}
+
+.ant-menu li {
+    text-align: left;
+}
+
+.ant-menu-item > a {
+    display: inline-block;
+}
+
+.card-mode {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-mode .ant-card {
+    width: 240px;
+    margin: 15px 20px 15px 20px;
+}
+
+.ant-card-cover img {
+    height: 220px;
+}
+
+.ant-card-body {
+    padding: 18px;
+    text-align: center;
+}
+
+.card_height {
+    height: 300px;
+}
+
+.ant-card-meta {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.ant-card:hover .ant-card-meta .ant-card-meta-description {
+    color: #1890ff;
+}
+
+/*pagination*/
+.ant-table-pagination.ant-pagination {
+    margin: 16px 20px 16px 0;
+}
+
+/*table*/
+.curr-span {
+    cursor: pointer;
+}
+
+.span_button {
+    color: rgba(67, 146, 247, 1.000);
+}
+
+div[disabled] {
+    color: rgba(0, 0, 0, 0.25);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/*userManagement*/
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
