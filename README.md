@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## SSO管理系统 (个人开源项目)
+## SSO管理系统 (个人开源项目) 切勿用于商业行为
 
 架构:MVVM
 
